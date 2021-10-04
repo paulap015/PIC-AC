@@ -1,6 +1,9 @@
 #include "Leds.h"
 #include "LCD.h"
-
+/*
+*@param
+*
+*/
 void init_leds(void) {
 
     CFG_LED_POWER_B = OUTPUT;
@@ -37,7 +40,7 @@ int validar(int temp, int distancia, int luz) {
     int contador = 0;
 
     // verde valores  normales ; amarillo 1  fallando ; rojo 2 o + fallando
-    if (temp < TEMP_BAJA || temp > TEMP_ALTA) { //Mayor a 30 grados y Menor a 17 es un estado no óptimo
+    if (temp < TEMP_BAJA || temp > TEMP_ALTA) { //Mayor a 30 grados y Menor a 17 es un estado no Ã³ptimo
         mostrar_emoticon(5);
         contador++;
     }
