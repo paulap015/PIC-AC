@@ -1,0 +1,1295 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\Users\57322\AppData\Local\Temp\xcAsb0s.o
+idloc IDLOC 5 200000 200000 8 1
+init CODE 0 0 0 4 1
+config CONFIG 4 300000 300000 E 1
+$dist/default/production\Active_environment.production.o
+cinit CODE 0 1FD2 1FD2 42 1
+idloc IDLOC 5 200000 200000 8 1
+text0 CODE 0 1ADA 1ADA 80 1
+text1 CODE 0 1762 1762 D4 1
+text2 CODE 0 21D2 21D2 16 1
+text3 CODE 0 1C5A 1C5A 7C 1
+text4 CODE 0 F24 F24 1B4 1
+text5 CODE 0 1578 1578 106 1
+text6 CODE 0 816 816 42A 1
+text7 CODE 0 1B5A 1B5A 80 1
+text8 CODE 0 2180 2180 2C 1
+text9 CODE 0 21FC 21FC 10 1
+text10 CODE 0 2014 2014 42 1
+text11 CODE 0 21AC 21AC 26 1
+text12 CODE 0 1CD6 1CD6 74 1
+text13 CODE 0 19C6 19C6 92 1
+text14 CODE 0 1EFC 1EFC 4A 1
+text15 CODE 0 220C 220C E 1
+text16 CODE 0 221A 221A A 1
+text17 CODE 0 21E8 21E8 14 1
+text18 CODE 0 1A58 1A58 82 1
+text19 CODE 0 1F46 1F46 48 1
+text20 CODE 0 214C 214C 34 1
+text21 CODE 0 167E 167E E4 1
+text22 CODE 0 1E0A 1E0A 52 1
+text23 CODE 0 1D4A 1D4A 62 1
+text24 CODE 0 10D8 10D8 1B4 1
+text25 CODE 0 C40 C40 2E4 1
+text26 CODE 0 1900 1900 C6 1
+text27 CODE 0 2116 2116 36 1
+text28 CODE 0 1F8E 1F8E 44 1
+text29 CODE 0 1836 1836 CA 1
+text30 CODE 0 222C 222C 2 1
+text31 CODE 0 2096 2096 40 1
+text32 CODE 0 1414 1414 164 1
+text33 CODE 0 128C 128C 188 1
+text34 CODE 0 20D6 20D6 40 1
+text35 CODE 0 1DAC 1DAC 5E 1
+text36 CODE 0 1E5C 1E5C 50 1
+text37 CODE 0 2224 2224 8 1
+text38 CODE 0 1EAC 1EAC 50 1
+text39 CODE 0 1BDA 1BDA 80 1
+cstackCOMRAM COMRAM 1 1 1 5F 1
+cstackBANK0 BANK0 1 60 60 44 1
+bssBANK0 BANK0 1 E4 E4 12 1
+bssBANK1 BANK1 1 100 100 50 1
+smallconst SMALLCONST 0 800 800 16 1
+idataBANK0 CODE 0 2056 2056 40 1
+dataBANK0 BANK0 1 A4 A4 40 1
+config CONFIG 4 300000 300000 E 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM F6-FF 1
+RAM 150-7FF 1
+SFR F60-FFF 1
+BANK0 F6-FF 1
+BANK1 150-1FF 1
+BANK2 200-2FF 1
+BANK3 300-3FF 1
+BANK4 400-4FF 1
+BANK5 500-5FF 1
+BANK6 600-6FF 1
+BANK7 700-7FF 1
+CONST 4-7FF 1
+CONST 222E-7FFF 1
+STACK 150-7FF 1
+SMALLCONST 222E-7FFF 1
+CODE 4-7FF 1
+CODE 222E-7FFF 1
+BIGRAM F6-FF 1
+BIGRAM 150-7FF 1
+EEDATA F00000-F000FF 1
+MEDIUMCONST 222E-7FFF 1
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\Active_environment.production.o
+1BDA text39 CODE >12:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+1BDA text39 CODE >14:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+1BEC text39 CODE >15:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+1BEE text39 CODE >16:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+1BF0 text39 CODE >17:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+1BF2 text39 CODE >18:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+1C08 text39 CODE >19:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+1C0A text39 CODE >20:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+1C0C text39 CODE >21:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+1C0E text39 CODE >22:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+1C48 text39 CODE >23:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+1C4A text39 CODE >24:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+1C4C text39 CODE >25:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+1C4E text39 CODE >26:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+1C52 text39 CODE >27:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+1C54 text39 CODE >28:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+1C56 text39 CODE >29:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+1C58 text39 CODE >31:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+1EAC text38 CODE >15:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1EAE text38 CODE >16:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1EBE text38 CODE >17:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1EC0 text38 CODE >18:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1EC2 text38 CODE >19:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1EC4 text38 CODE >20:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1EC6 text38 CODE >21:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1ED4 text38 CODE >22:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1EE6 text38 CODE >23:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1EE8 text38 CODE >24:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1EEA text38 CODE >25:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1EEC text38 CODE >26:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1EFA text38 CODE >27:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+2224 text37 CODE >79:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+2224 text37 CODE >80:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+222A text37 CODE >81:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1E5C text36 CODE >29:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1E5E text36 CODE >30:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1E6E text36 CODE >31:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1E70 text36 CODE >32:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1E72 text36 CODE >33:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1E74 text36 CODE >34:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1E76 text36 CODE >35:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1E84 text36 CODE >36:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1E96 text36 CODE >37:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1E98 text36 CODE >38:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1E9A text36 CODE >39:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1E9C text36 CODE >40:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1EAA text36 CODE >43:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1DAC text35 CODE >45:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1DAC text35 CODE >46:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1DB0 text35 CODE >47:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1DD4 text35 CODE >48:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1DD8 text35 CODE >46:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1E08 text35 CODE >51:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+20D6 text34 CODE >53:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+20D8 text34 CODE >54:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+20D8 text34 CODE >55:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+20E8 text34 CODE >56:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+20F0 text34 CODE >57:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+20F6 text34 CODE >58:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+20FA text34 CODE >59:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+2102 text34 CODE >60:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+2108 text34 CODE >64:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+2114 text34 CODE >66:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+128C text33 CODE >9:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+128C text33 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+1290 text33 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+129E text33 CODE >17:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+12BE text33 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+12C2 text33 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+12D0 text33 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+12F0 text33 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+12F4 text33 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+1300 text33 CODE >25:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+131E text33 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+1322 text33 CODE >27:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+1326 text33 CODE >28:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+1338 text33 CODE >29:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+133A text33 CODE >27:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+1348 text33 CODE >32:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+135A text33 CODE >33:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+1388 text33 CODE >34:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+13A8 text33 CODE >35:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+13AA text33 CODE >37:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+13BC text33 CODE >38:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+13C2 text33 CODE >40:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+13D2 text33 CODE >41:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+13F2 text33 CODE >42:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+1412 text33 CODE >43:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aodiv.c
+1414 text32 CODE >9:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+1414 text32 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+1418 text32 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+1426 text32 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+1446 text32 CODE >17:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+144A text32 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+1458 text32 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+1478 text32 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+1496 text32 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+149A text32 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+149E text32 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+14B0 text32 CODE >25:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+14B2 text32 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+14C0 text32 CODE >28:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+14EE text32 CODE >29:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+150E text32 CODE >30:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+1520 text32 CODE >31:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+1526 text32 CODE >33:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+1536 text32 CODE >34:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+1556 text32 CODE >35:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+1576 text32 CODE >36:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\aomod.c
+2096 text31 CODE >1:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\abs.c
+2096 text31 CODE >3:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\abs.c
+20D4 text31 CODE >4:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\abs.c
+222C text30 CODE >7:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\putch.c
+222C text30 CODE >9:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\putch.c
+1836 text29 CODE >8:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+1836 text29 CODE >12:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+185A text29 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+1860 text29 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+1864 text29 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+18B8 text29 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+18EC text29 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+18FE text29 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputc.c
+1F8E text28 CODE >8:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
+1F8E text28 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
+1F96 text28 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
+1F9A text28 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
+1FAC text28 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
+1FB0 text28 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
+1FD0 text28 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_fputs.c
+2116 text27 CODE >5:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+2116 text27 CODE >7:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+211E text27 CODE >8:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+2122 text27 CODE >9:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+2126 text27 CODE >8:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+213E text27 CODE >11:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+214A text27 CODE >12:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\strlen.c
+1900 text26 CODE >72:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1900 text26 CODE >77:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1910 text26 CODE >78:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1924 text26 CODE >82:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1946 text26 CODE >83:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+194E text26 CODE >84:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1952 text26 CODE >85:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1966 text26 CODE >86:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+196A text26 CODE >84:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1988 text26 CODE >90:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1998 text26 CODE >91:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+19AC text26 CODE >94:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+19C4 text26 CODE >95:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+C40 text25 CODE >287:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+C40 text25 CODE >293:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+C60 text25 CODE >294:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+C76 text25 CODE >295:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+C88 text25 CODE >296:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+CA8 text25 CODE >300:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+CB8 text25 CODE >301:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+CBA text25 CODE >303:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+CE8 text25 CODE >304:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+CF0 text25 CODE >305:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+D10 text25 CODE >306:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+D16 text25 CODE >310:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+D1E text25 CODE >311:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+D24 text25 CODE >312:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+D28 text25 CODE >313:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+D2E text25 CODE >314:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+D5A text25 CODE >314:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+D5E text25 CODE >314:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+D62 text25 CODE >314:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+D66 text25 CODE >314:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+D6A text25 CODE >314:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+D6E text25 CODE >314:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+D72 text25 CODE >314:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+D76 text25 CODE >314:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+DB0 text25 CODE >315:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+DB6 text25 CODE >316:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+DBC text25 CODE >317:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+DDC text25 CODE >317:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+DE0 text25 CODE >317:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+DE4 text25 CODE >317:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+DE8 text25 CODE >317:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+DEC text25 CODE >317:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+DF0 text25 CODE >317:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+DF4 text25 CODE >317:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+DF8 text25 CODE >317:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+E20 text25 CODE >312:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+E9C text25 CODE >321:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+EBE text25 CODE >322:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+EC4 text25 CODE >323:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+EFA text25 CODE >327:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+F22 text25 CODE >328:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+10D8 text24 CODE >692:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+10D8 text24 CODE >702:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+10FC text24 CODE >703:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+110A text24 CODE >705:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+111C text24 CODE >706:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1120 text24 CODE >847:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1168 text24 CODE >849:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1176 text24 CODE >850:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+11B0 text24 CODE >852:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+11E8 text24 CODE >1372:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+120C text24 CODE >1373:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+121A text24 CODE >1374:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+122E text24 CODE >1375:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+123A text24 CODE >1379:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1248 text24 CODE >1380:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1254 text24 CODE >1384:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1278 text24 CODE >1385:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+128A text24 CODE >1387:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1D4A text23 CODE >1390:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1D4A text23 CODE >1395:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1D52 text23 CODE >1396:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1D5C text23 CODE >1397:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1D60 text23 CODE >1398:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1D86 text23 CODE >1397:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1DA2 text23 CODE >1400:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1DAA text23 CODE >1404:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\doprnt.c
+1E0A text22 CODE >9:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
+1E0A text22 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
+1E14 text22 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
+1E1C text22 CODE >17:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
+1E24 text22 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
+1E2C text22 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
+1E48 text22 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
+1E5A text22 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\nf_sprintf.c
+167E text21 CODE >166:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+167E text21 CODE >169:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+1690 text21 CODE >171:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+169C text21 CODE >172:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+16B8 text21 CODE >174:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+16C4 text21 CODE >175:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+16E0 text21 CODE >177:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+16EC text21 CODE >178:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+1708 text21 CODE >180:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+170E text21 CODE >181:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+1720 text21 CODE >182:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+1732 text21 CODE >183:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+1744 text21 CODE >184:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+175C text21 CODE >185:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+1760 text21 CODE >186:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+214C text20 CODE >3:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+214C text20 CODE >4:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+2150 text20 CODE >5:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+2160 text20 CODE >6:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+2166 text20 CODE >8:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+216C text20 CODE >10:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+2172 text20 CODE >11:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+2178 text20 CODE >12:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+217E text20 CODE >13:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1F46 text19 CODE >90:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1F48 text19 CODE >93:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1F58 text19 CODE >94:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1F64 text19 CODE >95:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1F68 text19 CODE >96:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1F8C text19 CODE >99:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1A58 text18 CODE >110:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+1A58 text18 CODE >112:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+1A6A text18 CODE >124:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+1A7C text18 CODE >135:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+1A8E text18 CODE >146:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+1AA0 text18 CODE >158:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+1AAE text18 CODE >159:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+1ABC text18 CODE >160:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+1ACA text18 CODE >161:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+1AD8 text18 CODE >164:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+21E8 text17 CODE >101:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+21E8 text17 CODE >102:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+21EC text17 CODE >103:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+21F4 text17 CODE >104:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+21F8 text17 CODE >105:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+21FA text17 CODE >106:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+221A text16 CODE >4:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+221A text16 CODE >6:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+221C text16 CODE >7:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+221E text16 CODE >8:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+2220 text16 CODE >9:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+2222 text16 CODE >10:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+220C text15 CODE >15:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+220C text15 CODE >16:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+2210 text15 CODE >17:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+2212 text15 CODE >18:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+2214 text15 CODE >19:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+2216 text15 CODE >20:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+2218 text15 CODE >21:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+1EFC text14 CODE >23:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+1EFC text14 CODE >24:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+1F04 text14 CODE >25:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+1F06 text14 CODE >26:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+1F0E text14 CODE >27:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+1F10 text14 CODE >28:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+1F10 text14 CODE >29:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+1F22 text14 CODE >31:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+1F26 text14 CODE >32:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+1F2E text14 CODE >30:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+1F3C text14 CODE >34:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+1F44 text14 CODE >35:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+19C6 text13 CODE >3:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+19C6 text13 CODE >4:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+19CA text13 CODE >5:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+19D6 text13 CODE >6:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+1A04 text13 CODE >7:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+1A10 text13 CODE >8:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+1A26 text13 CODE >9:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+1A32 text13 CODE >10:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+1A48 text13 CODE >11:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+1A4E text13 CODE >12:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+1A56 text13 CODE >13:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+1CD6 text12 CODE >7:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+1CD6 text12 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+1CDE text12 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+1CF0 text12 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+1CF4 text12 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+1CF8 text12 CODE >17:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+1CFE text12 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+1D00 text12 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+1D0E text12 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+1D14 text12 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+1D2A text12 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+1D32 text12 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+1D34 text12 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+1D3A text12 CODE >27:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+1D40 text12 CODE >28:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+1D40 text12 CODE >29:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+1D48 text12 CODE >30:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\lwdiv.c
+21AC text11 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+21AC text11 CODE >37:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+21B8 text11 CODE >38:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+21C0 text11 CODE >39:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+21C8 text11 CODE >52:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+21D0 text11 CODE >53:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+2014 text10 CODE >18:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\adc_lib.c
+2014 text10 CODE >19:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\adc_lib.c
+201C text10 CODE >20:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\adc_lib.c
+2020 text10 CODE >21:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\adc_lib.c
+2042 text10 CODE >22:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\adc_lib.c
+204A text10 CODE >23:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\adc_lib.c
+2052 text10 CODE >24:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\adc_lib.c
+2054 text10 CODE >25:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\adc_lib.c
+21FC text9 CODE >27:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\adc_lib.c
+21FC text9 CODE >29:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\adc_lib.c
+2208 text9 CODE >30:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\adc_lib.c
+220A text9 CODE >31:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\adc_lib.c
+2180 text8 CODE >32:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\adc_lib.c
+2180 text8 CODE >33:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\adc_lib.c
+2180 text8 CODE >34:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\adc_lib.c
+2182 text8 CODE >35:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\adc_lib.c
+2190 text8 CODE >36:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\adc_lib.c
+2196 text8 CODE >37:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\adc_lib.c
+21A2 text8 CODE >38:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\adc_lib.c
+21AA text8 CODE >39:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\adc_lib.c
+1B5A text7 CODE >47:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+1B5A text7 CODE >49:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+1B5C text7 CODE >51:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+1B68 text7 CODE >53:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+1B74 text7 CODE >54:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+1BA0 text7 CODE >55:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+1BD0 text7 CODE >57:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+1BD8 text7 CODE >58:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+816 text6 CODE >8:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+816 text6 CODE >17:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+81C text6 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+822 text6 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+830 text6 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+832 text6 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+842 text6 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+852 text6 CODE >28:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+862 text6 CODE >31:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+864 text6 CODE >33:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+868 text6 CODE >36:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+878 text6 CODE >39:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+87E text6 CODE >40:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+884 text6 CODE >41:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+892 text6 CODE >42:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+894 text6 CODE >45:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+8A4 text6 CODE >48:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+8B4 text6 CODE >50:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+8C4 text6 CODE >53:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+8C6 text6 CODE >54:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+8CA text6 CODE >57:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+8DA text6 CODE >58:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+8DA text6 CODE >65:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+8FA text6 CODE >66:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+90E text6 CODE >95:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+91A text6 CODE >96:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+924 text6 CODE >97:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+92E text6 CODE >98:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+93A text6 CODE >99:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+946 text6 CODE >100:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+952 text6 CODE >101:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+95E text6 CODE >102:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+96A text6 CODE >103:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+976 text6 CODE >104:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+984 text6 CODE >105:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+990 text6 CODE >106:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+9A0 text6 CODE >107:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+9AC text6 CODE >108:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+9BC text6 CODE >109:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+9CA text6 CODE >110:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+9D6 text6 CODE >111:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+9E6 text6 CODE >112:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+9F2 text6 CODE >113:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+A02 text6 CODE >114:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+A0E text6 CODE >115:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+A1E text6 CODE >116:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+A2A text6 CODE >117:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+A54 text6 CODE >145:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+A8A text6 CODE >146:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+A98 text6 CODE >149:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+AB2 text6 CODE >152:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+AB6 text6 CODE >153:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+AC0 text6 CODE >154:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+ACE text6 CODE >155:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+AD0 text6 CODE >156:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+AD0 text6 CODE >157:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+ADA text6 CODE >158:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+AE0 text6 CODE >152:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+AEE text6 CODE >163:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+AF2 text6 CODE >164:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+B00 text6 CODE >165:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+B2E text6 CODE >166:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+B32 text6 CODE >167:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+B36 text6 CODE >168:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+B36 text6 CODE >169:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+B48 text6 CODE >173:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+B48 text6 CODE >174:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+B58 text6 CODE >175:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+B64 text6 CODE >176:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+B72 text6 CODE >177:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+B9C text6 CODE >178:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+BA0 text6 CODE >183:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+BBA text6 CODE >184:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+BCA text6 CODE >185:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+BCE text6 CODE >187:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+BE8 text6 CODE >188:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+BF8 text6 CODE >190:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+BFC text6 CODE >191:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+C00 text6 CODE >192:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+C00 text6 CODE >194:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+C04 text6 CODE >195:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+C14 text6 CODE >196:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+C22 text6 CODE >197:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+C24 text6 CODE >199:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+C2A text6 CODE >201:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+C2E text6 CODE >203:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+C3E text6 CODE >205:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+1578 text5 CODE >43:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fltol.c
+1578 text5 CODE >47:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fltol.c
+158E text5 CODE >48:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fltol.c
+15A2 text5 CODE >49:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fltol.c
+15CC text5 CODE >50:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fltol.c
+15CE text5 CODE >51:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fltol.c
+15DE text5 CODE >52:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fltol.c
+15E2 text5 CODE >53:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fltol.c
+15F0 text5 CODE >54:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fltol.c
+1608 text5 CODE >57:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fltol.c
+161C text5 CODE >60:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fltol.c
+1630 text5 CODE >63:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fltol.c
+163A text5 CODE >64:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fltol.c
+163C text5 CODE >62:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fltol.c
+164C text5 CODE >67:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fltol.c
+165C text5 CODE >68:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fltol.c
+166C text5 CODE >69:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fltol.c
+167C text5 CODE >70:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fltol.c
+F24 text4 CODE >10:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+F26 text4 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+F44 text4 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+F76 text4 CODE >17:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+F7A text4 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+F7A text4 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+F8A text4 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+FA0 text4 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+FB4 text4 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+FB8 text4 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+FBC text4 CODE >25:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+FBE text4 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+FC8 text4 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+FFA text4 CODE >29:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+FFC text4 CODE >30:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+1008 text4 CODE >31:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+1012 text4 CODE >28:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+1012 text4 CODE >32:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+1044 text4 CODE >34:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+1046 text4 CODE >35:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+1050 text4 CODE >33:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+106E text4 CODE >37:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+107C text4 CODE >38:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+107E text4 CODE >39:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+1082 text4 CODE >40:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+10A6 text4 CODE >41:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+10C4 text4 CODE >42:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+10C6 text4 CODE >43:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+10D6 text4 CODE >44:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\xxtofl.c
+1C5A text3 CODE >37:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+1C5A text3 CODE >38:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+1C5C text3 CODE >39:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+1C68 text3 CODE >40:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+1C74 text3 CODE >41:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+1CCC text3 CODE >42:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+1CD4 text3 CODE >43:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\sensores.c
+21D2 text2 CODE >83:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+21D4 text2 CODE >85:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+21E0 text2 CODE >86:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+21E6 text2 CODE >88:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\LCD.c
+1762 text1 CODE >34:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+1762 text1 CODE >37:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+176A text1 CODE >40:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+17A2 text1 CODE >41:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+17A8 text1 CODE >42:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+17AC text1 CODE >44:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+17C8 text1 CODE >45:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+17CE text1 CODE >46:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+17D2 text1 CODE >48:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+180A text1 CODE >49:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+1810 text1 CODE >50:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+1814 text1 CODE >53:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+1826 text1 CODE >54:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+182C text1 CODE >58:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+1834 text1 CODE >59:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Leds.c
+1ADA text0 CODE >78:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+1ADA text0 CODE >80:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+1ADE text0 CODE >81:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+1AE2 text0 CODE >82:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+1AE6 text0 CODE >83:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+1AEA text0 CODE >85:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+1AEA text0 CODE >87:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+1AF6 text0 CODE >88:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+1B02 text0 CODE >89:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+1B0E text0 CODE >90:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+1B36 text0 CODE >91:C:\Users\57322\Desktop\Nueva carpeta (2)\Active_environment\Active_environment\Principal.c
+1FD2 cinit CODE >2454:C:\Users\57322\AppData\Local\Temp\xcAsb0s.s
+1FD2 cinit CODE >2456:C:\Users\57322\AppData\Local\Temp\xcAsb0s.s
+1FD2 cinit CODE >2459:C:\Users\57322\AppData\Local\Temp\xcAsb0s.s
+1FD2 cinit CODE >2553:C:\Users\57322\AppData\Local\Temp\xcAsb0s.s
+1FD4 cinit CODE >2554:C:\Users\57322\AppData\Local\Temp\xcAsb0s.s
+1FD6 cinit CODE >2555:C:\Users\57322\AppData\Local\Temp\xcAsb0s.s
+1FD8 cinit CODE >2556:C:\Users\57322\AppData\Local\Temp\xcAsb0s.s
+1FDA cinit CODE >2557:C:\Users\57322\AppData\Local\Temp\xcAsb0s.s
+1FDC cinit CODE >2558:C:\Users\57322\AppData\Local\Temp\xcAsb0s.s
+1FDE cinit CODE >2559:C:\Users\57322\AppData\Local\Temp\xcAsb0s.s
+1FE2 cinit CODE >2560:C:\Users\57322\AppData\Local\Temp\xcAsb0s.s
+1FE6 cinit CODE >2561:C:\Users\57322\AppData\Local\Temp\xcAsb0s.s
+1FE6 cinit CODE >2562:C:\Users\57322\AppData\Local\Temp\xcAsb0s.s
+1FE8 cinit CODE >2563:C:\Users\57322\AppData\Local\Temp\xcAsb0s.s
+1FEC cinit CODE >2564:C:\Users\57322\AppData\Local\Temp\xcAsb0s.s
+1FEE cinit CODE >2565:C:\Users\57322\AppData\Local\Temp\xcAsb0s.s
+1FF0 cinit CODE >2566:C:\Users\57322\AppData\Local\Temp\xcAsb0s.s
+1FF2 cinit CODE >2570:C:\Users\57322\AppData\Local\Temp\xcAsb0s.s
+1FF6 cinit CODE >2571:C:\Users\57322\AppData\Local\Temp\xcAsb0s.s
+1FF8 cinit CODE >2572:C:\Users\57322\AppData\Local\Temp\xcAsb0s.s
+1FF8 cinit CODE >2573:C:\Users\57322\AppData\Local\Temp\xcAsb0s.s
+1FFA cinit CODE >2574:C:\Users\57322\AppData\Local\Temp\xcAsb0s.s
+1FFC cinit CODE >2575:C:\Users\57322\AppData\Local\Temp\xcAsb0s.s
+1FFE cinit CODE >2578:C:\Users\57322\AppData\Local\Temp\xcAsb0s.s
+2002 cinit CODE >2579:C:\Users\57322\AppData\Local\Temp\xcAsb0s.s
+2004 cinit CODE >2580:C:\Users\57322\AppData\Local\Temp\xcAsb0s.s
+2004 cinit CODE >2581:C:\Users\57322\AppData\Local\Temp\xcAsb0s.s
+2006 cinit CODE >2582:C:\Users\57322\AppData\Local\Temp\xcAsb0s.s
+2008 cinit CODE >2583:C:\Users\57322\AppData\Local\Temp\xcAsb0s.s
+200A cinit CODE >2589:C:\Users\57322\AppData\Local\Temp\xcAsb0s.s
+200A cinit CODE >2592:C:\Users\57322\AppData\Local\Temp\xcAsb0s.s
+200C cinit CODE >2593:C:\Users\57322\AppData\Local\Temp\xcAsb0s.s
+200E cinit CODE >2594:C:\Users\57322\AppData\Local\Temp\xcAsb0s.s
+2010 cinit CODE >2595:C:\Users\57322\AppData\Local\Temp\xcAsb0s.s
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+__size_of_validar 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+__LdataBANK0 0 0 ABS 0 dataBANK0 dist/default/production\Active_environment.production.o
+__Lmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\Active_environment.production.o
+__Hspace_0 222E 0 ABS 0 - dist/default/production\Active_environment.production.o
+__Hspace_1 150 0 ABS 0 - dist/default/production\Active_environment.production.o
+__Hspace_2 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+__Hspace_4 60000E 0 ABS 0 - dist/default/production\Active_environment.production.o
+__HidataBANK0 0 0 ABS 0 idataBANK0 dist/default/production\Active_environment.production.o
+_adc_init10Bits 21FC 0 CODE 0 text9 dist/default/production\Active_environment.production.o
+?_adc_read10Bits 1 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__Hibigdata 0 0 CODE 0 ibigdata dist/default/production\Active_environment.production.o
+_LCD_Custom_Char 1F46 0 CODE 0 text19 dist/default/production\Active_environment.production.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\57322\AppData\Local\Temp\xcAsb0s.o
+iniciar_emoticones@distancia F 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\Active_environment.production.o
+_todo_bien C4 0 BANK0 1 dataBANK0 dist/default/production\Active_environment.production.o
+?_abs 13 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+?_pad 11 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+?_vfprintf 50 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__Lsmallconst 800 0 SMALLCONST 0 smallconst dist/default/production\Active_environment.production.o
+_CREN 7D5C 0 ABS 0 - dist/default/production\Active_environment.production.o
+_LATD F8C 0 ABS 0 - dist/default/production\Active_environment.production.o
+_RBPU 7F8F 0 ABS 0 - dist/default/production\Active_environment.production.o
+_RCIF 7CF5 0 ABS 0 - dist/default/production\Active_environment.production.o
+_TXIF 7CF4 0 ABS 0 - dist/default/production\Active_environment.production.o
+___sp 0 0 STACK 2 stack C:\Users\57322\AppData\Local\Temp\xcAsb0s.o
+_dbuf 130 0 BANK1 1 bssBANK1 dist/default/production\Active_environment.production.o
+_dtoa C40 0 CODE 0 text25 dist/default/production\Active_environment.production.o
+_main 1ADA 0 CODE 0 text0 dist/default/production\Active_environment.production.o
+_nout E4 0 BANK0 1 bssBANK0 dist/default/production\Active_environment.production.o
+_prec E8 0 BANK0 1 bssBANK0 dist/default/production\Active_environment.production.o
+abs@a 13 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+_inicializar_lcd 214C 0 CODE 0 text20 dist/default/production\Active_environment.production.o
+pad@i 18 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+pad@p 15 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+pad@w 1A 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+start 0 0 CODE 0 init C:\Users\57322\AppData\Local\Temp\xcAsb0s.o
+___aomod@counter 11 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+___flmul@aexp 20 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+___flmul@bexp 21 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+___flmul@prod 22 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+___flmul@sign 1B 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+___flmul@temp 26 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__size_of___aodiv 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+__size_of___aomod 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+__size_of___flmul 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+__size_of___fltol 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+__size_of_dtoa 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+__size_of_main 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+__size_of___lwdiv 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+pad@fp 11 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+?___wmul 1 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__LidataBANK0 0 0 ABS 0 idataBANK0 dist/default/production\Active_environment.production.o
+__end_of_mostrar_emoticon 21E8 0 CODE 0 text2 dist/default/production\Active_environment.production.o
+LCD_Char@dat 2 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+_LCD_Char 1E5C 0 CODE 0 text36 dist/default/production\Active_environment.production.o
+__Hpowerup 0 0 CODE 0 powerup dist/default/production\Active_environment.production.o
+__end_of_vfpfcnvrt 128C 0 CODE 0 text24 dist/default/production\Active_environment.production.o
+__size_of_vfpfcnvrt 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+__size_of_mostrar_emoticon 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+mostrar_emoticon@i 3 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__accesstop 60 0 ABS 0 - C:\Users\57322\AppData\Local\Temp\xcAsb0s.o
+__end_of_LCD_Char 1EAC 0 CODE 0 text36 dist/default/production\Active_environment.production.o
+intlevel0 0 0 CODE 0 text C:\Users\57322\AppData\Local\Temp\xcAsb0s.o
+intlevel1 0 0 CODE 0 text C:\Users\57322\AppData\Local\Temp\xcAsb0s.o
+intlevel2 0 0 CODE 0 text C:\Users\57322\AppData\Local\Temp\xcAsb0s.o
+intlevel3 0 0 CODE 0 text C:\Users\57322\AppData\Local\Temp\xcAsb0s.o
+__end_of_adc_init10Bits 220C 0 CODE 0 text9 dist/default/production\Active_environment.production.o
+validar@contador A 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+obtener_distancia@cm 3 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+_OSCCONbits FD3 0 ABS 0 - dist/default/production\Active_environment.production.o
+__LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\Active_environment.production.o
+?_obtener_distancia 1 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+_sensor_distancia 19C6 0 CODE 0 text13 dist/default/production\Active_environment.production.o
+__Hifardata 0 0 CODE 0 ifardata dist/default/production\Active_environment.production.o
+__Hclrtext 0 0 ABS 0 clrtext dist/default/production\Active_environment.production.o
+_vfpfcnvrt 10D8 0 CODE 0 text24 dist/default/production\Active_environment.production.o
+dtoa@fp 1C 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+___wmul@multiplicand 3 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__end_of_validar 1836 0 CODE 0 text1 dist/default/production\Active_environment.production.o
+_ADRESH FC4 0 ABS 0 - dist/default/production\Active_environment.production.o
+_ADRESL FC3 0 ABS 0 - dist/default/production\Active_environment.production.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\57322\AppData\Local\Temp\xcAsb0s.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\57322\AppData\Local\Temp\xcAsb0s.o
+_LCD_String 1DAC 0 CODE 0 text35 dist/default/production\Active_environment.production.o
+iniciar_emoticones@temperatura 7 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__Hintcode_body 0 0 ABS 0 intcode_body dist/default/production\Active_environment.production.o
+__size_of_LCD_Custom_Char 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+__end_of___wmul 21D2 0 CODE 0 text11 dist/default/production\Active_environment.production.o
+__Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\Active_environment.production.o
+__size_of_sprintf 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+__Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\Active_environment.production.o
+__size_of_init_ports 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+__Hintcodelo 0 0 CODE 0 intcodelo dist/default/production\Active_environment.production.o
+__size_of_iniciar_pic 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+__size_of_inicializar_lcd 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+_val_temp F2 0 BANK0 1 bssBANK0 dist/default/production\Active_environment.production.o
+__end_of___aodiv 1414 0 CODE 0 text33 dist/default/production\Active_environment.production.o
+__end_of___aomod 1578 0 CODE 0 text32 dist/default/production\Active_environment.production.o
+__end_of___flmul C40 0 CODE 0 text6 dist/default/production\Active_environment.production.o
+__end_of___fltol 167E 0 CODE 0 text5 dist/default/production\Active_environment.production.o
+__size_of_iniciar_emoticones 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+__end_of___lwdiv 1D4A 0 CODE 0 text12 dist/default/production\Active_environment.production.o
+imprimir@aux_luz 8E 0 BANK0 1 cstackBANK0 dist/default/production\Active_environment.production.o
+___aodiv@quotient 13 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+?_strlen 1 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+___aomod@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+___lwdiv@quotient B 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__size_of_fputc 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+__size_of_fputs 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+iniciar_emoticones@todo_bien 1F 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__size_of_putch 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+___flmul@a 13 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+___flmul@b F 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__size_of_sensor_temperatura 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+_adc_config 2014 0 CODE 0 text10 dist/default/production\Active_environment.production.o
+__Lintcodelo 0 0 CODE 0 intcodelo dist/default/production\Active_environment.production.o
+___aomod@divisor 9 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+adc_read10Bits@value_adc 5 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+start_initialization 1FD2 0 CODE 0 cinit dist/default/production\Active_environment.production.o
+_sensor_luz 1B5A 0 CODE 0 text7 dist/default/production\Active_environment.production.o
+_OSCCON FD3 0 ABS 0 - dist/default/production\Active_environment.production.o
+__HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\Active_environment.production.o
+_encender_leds 1BDA 0 CODE 0 text39 dist/default/production\Active_environment.production.o
+_TRISAbits F92 0 ABS 0 - dist/default/production\Active_environment.production.o
+_TRISCbits F94 0 ABS 0 - dist/default/production\Active_environment.production.o
+__end_of_sensor_distancia 1A58 0 CODE 0 text13 dist/default/production\Active_environment.production.o
+__end_of_LCD_String 1E0A 0 CODE 0 text35 dist/default/production\Active_environment.production.o
+___rparam_used 1 0 ABS 0 - dist/default/production\Active_environment.production.o
+__size_of_sensor_distancia 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+__pcstackBANK0 60 0 BANK0 1 cstackBANK0 dist/default/production\Active_environment.production.o
+_val_luminosidad EC 0 BANK0 1 bssBANK0 dist/default/production\Active_environment.production.o
+__end_of_LCD_Command 1EFC 0 CODE 0 text38 dist/default/production\Active_environment.production.o
+_TRISB3 7C9B 0 ABS 0 - dist/default/production\Active_environment.production.o
+_TRISB4 7C9C 0 ABS 0 - dist/default/production\Active_environment.production.o
+_TRISB5 7C9D 0 ABS 0 - dist/default/production\Active_environment.production.o
+_TRISB6 7C9E 0 ABS 0 - dist/default/production\Active_environment.production.o
+_TRISC6 7CA6 0 ABS 0 - dist/default/production\Active_environment.production.o
+_TRISC7 7CA7 0 ABS 0 - dist/default/production\Active_environment.production.o
+LCD_String_xy@msg 6 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+LCD_String_xy@pos 5 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+LCD_String_xy@row 8 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+isa$xinst 0 0 ABS 0 - C:\Users\57322\AppData\Local\Temp\xcAsb0s.o
+__size_of_obtener_distancia 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+fputc@fp 3 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+fputs@fp C 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__end_of_LCD_Clear 222C 0 CODE 0 text37 dist/default/production\Active_environment.production.o
+__Hbank0 0 0 ABS 0 bank0 dist/default/production\Active_environment.production.o
+__Hbank1 0 0 ABS 0 bank1 dist/default/production\Active_environment.production.o
+__Hbank2 0 0 ABS 0 bank2 dist/default/production\Active_environment.production.o
+__Hbank3 0 0 ABS 0 bank3 dist/default/production\Active_environment.production.o
+__Hbank4 0 0 ABS 0 bank4 dist/default/production\Active_environment.production.o
+__Hbank5 0 0 ABS 0 bank5 dist/default/production\Active_environment.production.o
+__Hbank6 0 0 ABS 0 bank6 dist/default/production\Active_environment.production.o
+__Hbank7 0 0 ABS 0 bank7 dist/default/production\Active_environment.production.o
+__Hcinit 0 0 ABS 0 cinit dist/default/production\Active_environment.production.o
+__Hconst 0 0 CONST 0 const dist/default/production\Active_environment.production.o
+__end_of_strlen 214C 0 CODE 0 text27 dist/default/production\Active_environment.production.o
+__Hidata 0 0 CODE 0 idata dist/default/production\Active_environment.production.o
+__Hidloc 200008 0 IDLOC 5 idloc dist/default/production\Active_environment.production.o
+__size_of_LCD_Clear 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+__Hnvbit 0 0 COMRAM 1 nvbit dist/default/production\Active_environment.production.o
+__Hparam 0 0 COMRAM 1 rparam dist/default/production\Active_environment.production.o
+__Hrdata 0 0 COMRAM 1 rdata dist/default/production\Active_environment.production.o
+__Hstack 0 0 STACK 2 stack dist/default/production\Active_environment.production.o
+__Htext0 0 0 ABS 0 text0 dist/default/production\Active_environment.production.o
+__Htext1 0 0 ABS 0 text1 dist/default/production\Active_environment.production.o
+__Htext2 0 0 ABS 0 text2 dist/default/production\Active_environment.production.o
+__Htext3 0 0 ABS 0 text3 dist/default/production\Active_environment.production.o
+__Htext4 0 0 ABS 0 text4 dist/default/production\Active_environment.production.o
+__Htext5 0 0 ABS 0 text5 dist/default/production\Active_environment.production.o
+__Htext6 0 0 ABS 0 text6 dist/default/production\Active_environment.production.o
+__Htext7 0 0 ABS 0 text7 dist/default/production\Active_environment.production.o
+__Htext8 0 0 ABS 0 text8 dist/default/production\Active_environment.production.o
+__Htext9 0 0 ABS 0 text9 dist/default/production\Active_environment.production.o
+___lwdiv@counter D 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__size_of___xxtofl 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+__Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\Active_environment.production.o
+__Hbigram 0 0 ABS 0 bigram dist/default/production\Active_environment.production.o
+__smallconst 800 0 SMALLCONST 0 smallconst C:\Users\57322\AppData\Local\Temp\xcAsb0s.o
+__size_of_adc_read10Bits 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+_LCD_String_xy 20D6 0 CODE 0 text34 dist/default/production\Active_environment.production.o
+___xxtofl@arg B 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+___xxtofl@exp A 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+___xxtofl@val 1 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__end_of_sprintf 1E5C 0 CODE 0 text22 dist/default/production\Active_environment.production.o
+__Hcomram 0 0 ABS 0 comram dist/default/production\Active_environment.production.o
+__Hconfig 30000E 0 CONFIG 4 config dist/default/production\Active_environment.production.o
+validar@temp 4 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__end_of_adc_config 2056 0 CODE 0 text10 dist/default/production\Active_environment.production.o
+__Lbank0 0 0 ABS 0 bank0 dist/default/production\Active_environment.production.o
+__Lbank1 0 0 ABS 0 bank1 dist/default/production\Active_environment.production.o
+__Lbank2 0 0 ABS 0 bank2 dist/default/production\Active_environment.production.o
+__Lbank3 0 0 ABS 0 bank3 dist/default/production\Active_environment.production.o
+__Lbank4 0 0 ABS 0 bank4 dist/default/production\Active_environment.production.o
+__Lbank5 0 0 ABS 0 bank5 dist/default/production\Active_environment.production.o
+__Lbank6 0 0 ABS 0 bank6 dist/default/production\Active_environment.production.o
+__Lbank7 0 0 ABS 0 bank7 dist/default/production\Active_environment.production.o
+__Lcinit 0 0 ABS 0 cinit dist/default/production\Active_environment.production.o
+__Lconst 0 0 CONST 0 const dist/default/production\Active_environment.production.o
+__Lidata 0 0 CODE 0 idata dist/default/production\Active_environment.production.o
+__Lidloc 0 0 IDLOC 5 idloc dist/default/production\Active_environment.production.o
+__Lnvbit 0 0 COMRAM 1 nvbit dist/default/production\Active_environment.production.o
+__Lparam 0 0 COMRAM 1 rparam dist/default/production\Active_environment.production.o
+__Lrdata 0 0 COMRAM 1 rdata dist/default/production\Active_environment.production.o
+__Lstack 0 0 STACK 2 stack dist/default/production\Active_environment.production.o
+__Ltext0 0 0 ABS 0 text0 dist/default/production\Active_environment.production.o
+__Ltext1 0 0 ABS 0 text1 dist/default/production\Active_environment.production.o
+__Ltext2 0 0 ABS 0 text2 dist/default/production\Active_environment.production.o
+__Ltext3 0 0 ABS 0 text3 dist/default/production\Active_environment.production.o
+__Ltext4 0 0 ABS 0 text4 dist/default/production\Active_environment.production.o
+__Ltext5 0 0 ABS 0 text5 dist/default/production\Active_environment.production.o
+__Ltext6 0 0 ABS 0 text6 dist/default/production\Active_environment.production.o
+__Ltext7 0 0 ABS 0 text7 dist/default/production\Active_environment.production.o
+__Ltext8 0 0 ABS 0 text8 dist/default/production\Active_environment.production.o
+__Ltext9 0 0 ABS 0 text9 dist/default/production\Active_environment.production.o
+__Hfarbss 0 0 FARRAM 0 farbss dist/default/production\Active_environment.production.o
+__end_of_sensor_luz 1BDA 0 CODE 0 text7 dist/default/production\Active_environment.production.o
+_LCD_Clear 2224 0 CODE 0 text37 dist/default/production\Active_environment.production.o
+___flmul@grs 1C 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__Lintcode_body 0 0 ABS 0 intcode_body dist/default/production\Active_environment.production.o
+_PORTCbits F82 0 ABS 0 - dist/default/production\Active_environment.production.o
+__Habs1 0 0 ABS 0 abs1 dist/default/production\Active_environment.production.o
+__Hdata 0 0 ABS 0 data dist/default/production\Active_environment.production.o
+__Hinit 4 0 CODE 0 init dist/default/production\Active_environment.production.o
+__Hrbit 0 0 COMRAM 1 rbit dist/default/production\Active_environment.production.o
+__Hrbss 0 0 COMRAM 1 rbss dist/default/production\Active_environment.production.o
+__Htemp 0 0 COMRAM 1 temp dist/default/production\Active_environment.production.o
+__Htext 0 0 ABS 0 text dist/default/production\Active_environment.production.o
+__Labs1 0 0 ABS 0 abs1 dist/default/production\Active_environment.production.o
+__Ldata 0 0 ABS 0 data dist/default/production\Active_environment.production.o
+__Linit 0 0 CODE 0 init dist/default/production\Active_environment.production.o
+__Lrbit 0 0 COMRAM 1 rbit dist/default/production\Active_environment.production.o
+__Lrbss 0 0 COMRAM 1 rbss dist/default/production\Active_environment.production.o
+__Ltemp 0 0 COMRAM 1 temp dist/default/production\Active_environment.production.o
+__Ltext 0 0 ABS 0 text dist/default/production\Active_environment.production.o
+___aodiv@counter 11 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+___wmul 21AC 0 CODE 0 text11 dist/default/production\Active_environment.production.o
+___aomod@sign 12 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/production\Active_environment.production.o
+__HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\Active_environment.production.o
+__Hintret 0 0 ABS 0 intret dist/default/production\Active_environment.production.o
+__Hirdata 0 0 CODE 0 irdata dist/default/production\Active_environment.production.o
+__S0 222E 0 ABS 0 - dist/default/production\Active_environment.production.o
+__S1 150 0 ABS 0 - dist/default/production\Active_environment.production.o
+__S2 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+__S4 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+__S5 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+_abs 2096 0 CODE 0 text31 dist/default/production\Active_environment.production.o
+_luz CC 0 BANK0 1 dataBANK0 dist/default/production\Active_environment.production.o
+_pad 1900 0 CODE 0 text26 dist/default/production\Active_environment.production.o
+_value_adc F0 0 BANK0 1 bssBANK0 dist/default/production\Active_environment.production.o
+imprimir@luz 6C 0 BANK0 1 cstackBANK0 dist/default/production\Active_environment.production.o
+adc_init10Bits@canal 3 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__size_of_encender_leds 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+___aodiv@sign 12 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__Lbigdata 0 0 BIGRAM 1 bigdata dist/default/production\Active_environment.production.o
+__Hnvrram 0 0 COMRAM 1 nvrram dist/default/production\Active_environment.production.o
+sprintf@fmt 5A 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+_dtoa$1237 2E 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+___xxtofl F24 0 CODE 0 text4 dist/default/production\Active_environment.production.o
+__end_of_abs 20D6 0 CODE 0 text31 dist/default/production\Active_environment.production.o
+__end_of_pad 19C6 0 CODE 0 text26 dist/default/production\Active_environment.production.o
+_validar 1762 0 CODE 0 text1 dist/default/production\Active_environment.production.o
+imprimir@aux_dist 6E 0 BANK0 1 cstackBANK0 dist/default/production\Active_environment.production.o
+imprimir@aux_temp 7E 0 BANK0 1 cstackBANK0 dist/default/production\Active_environment.production.o
+__Lintentry 0 0 ABS 0 intentry dist/default/production\Active_environment.production.o
+__Hramtop 800 0 RAM 0 ramtop dist/default/production\Active_environment.production.o
+strlen@a 3 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+strlen@s 1 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__Hrparam 0 0 COMRAM 1 rparam dist/default/production\Active_environment.production.o
+__end_of___xxtofl 10D8 0 CODE 0 text4 dist/default/production\Active_environment.production.o
+__size_of_adc_init10Bits 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+__pdataBANK0 A4 0 BANK0 1 dataBANK0 dist/default/production\Active_environment.production.o
+__activetblptr 2 0 ABS 0 - dist/default/production\Active_environment.production.o
+__Hstruct 0 0 COMRAM 1 struct dist/default/production\Active_environment.production.o
+__size_of___wmul 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+_iniciar_pic 21E8 0 CODE 0 text17 dist/default/production\Active_environment.production.o
+__LbssBANK0 0 0 ABS 0 bssBANK0 dist/default/production\Active_environment.production.o
+__LbssBANK1 0 0 ABS 0 bssBANK1 dist/default/production\Active_environment.production.o
+__Htext10 0 0 ABS 0 text10 dist/default/production\Active_environment.production.o
+__Htext11 0 0 ABS 0 text11 dist/default/production\Active_environment.production.o
+__Htext12 0 0 ABS 0 text12 dist/default/production\Active_environment.production.o
+__Htext13 0 0 ABS 0 text13 dist/default/production\Active_environment.production.o
+__Htext14 0 0 ABS 0 text14 dist/default/production\Active_environment.production.o
+__Htext15 0 0 ABS 0 text15 dist/default/production\Active_environment.production.o
+__Htext16 0 0 ABS 0 text16 dist/default/production\Active_environment.production.o
+__Htext17 0 0 ABS 0 text17 dist/default/production\Active_environment.production.o
+__Htext18 0 0 ABS 0 text18 dist/default/production\Active_environment.production.o
+__Htext19 0 0 ABS 0 text19 dist/default/production\Active_environment.production.o
+__Htext20 0 0 ABS 0 text20 dist/default/production\Active_environment.production.o
+__Htext21 0 0 ABS 0 text21 dist/default/production\Active_environment.production.o
+__Htext22 0 0 ABS 0 text22 dist/default/production\Active_environment.production.o
+__Htext23 0 0 ABS 0 text23 dist/default/production\Active_environment.production.o
+__Htext24 0 0 ABS 0 text24 dist/default/production\Active_environment.production.o
+__Htext25 0 0 ABS 0 text25 dist/default/production\Active_environment.production.o
+__Htext26 0 0 ABS 0 text26 dist/default/production\Active_environment.production.o
+__Htext27 0 0 ABS 0 text27 dist/default/production\Active_environment.production.o
+__Htext28 0 0 ABS 0 text28 dist/default/production\Active_environment.production.o
+__Htext29 0 0 ABS 0 text29 dist/default/production\Active_environment.production.o
+__Htext30 0 0 ABS 0 text30 dist/default/production\Active_environment.production.o
+__Htext31 0 0 ABS 0 text31 dist/default/production\Active_environment.production.o
+__Htext32 0 0 ABS 0 text32 dist/default/production\Active_environment.production.o
+__Htext33 0 0 ABS 0 text33 dist/default/production\Active_environment.production.o
+__Htext34 0 0 ABS 0 text34 dist/default/production\Active_environment.production.o
+__Htext35 0 0 ABS 0 text35 dist/default/production\Active_environment.production.o
+__Htext36 0 0 ABS 0 text36 dist/default/production\Active_environment.production.o
+__Htext37 0 0 ABS 0 text37 dist/default/production\Active_environment.production.o
+__Htext38 0 0 ABS 0 text38 dist/default/production\Active_environment.production.o
+__Htext39 0 0 ABS 0 text39 dist/default/production\Active_environment.production.o
+vfpfcnvrt@fmt 42 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+_RCSTAbits FAB 0 ABS 0 - dist/default/production\Active_environment.production.o
+__end_of_init_leds 2224 0 CODE 0 text16 dist/default/production\Active_environment.production.o
+pad@buf 13 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__end_of_encender_leds 1C5A 0 CODE 0 text39 dist/default/production\Active_environment.production.o
+__ptext10 2014 0 CODE 0 text10 dist/default/production\Active_environment.production.o
+__ptext11 21AC 0 CODE 0 text11 dist/default/production\Active_environment.production.o
+__ptext12 1CD6 0 CODE 0 text12 dist/default/production\Active_environment.production.o
+__ptext13 19C6 0 CODE 0 text13 dist/default/production\Active_environment.production.o
+__ptext14 1EFC 0 CODE 0 text14 dist/default/production\Active_environment.production.o
+__ptext15 220C 0 CODE 0 text15 dist/default/production\Active_environment.production.o
+__ptext16 221A 0 CODE 0 text16 dist/default/production\Active_environment.production.o
+__ptext17 21E8 0 CODE 0 text17 dist/default/production\Active_environment.production.o
+__ptext18 1A58 0 CODE 0 text18 dist/default/production\Active_environment.production.o
+__ptext19 1F46 0 CODE 0 text19 dist/default/production\Active_environment.production.o
+__ptext20 214C 0 CODE 0 text20 dist/default/production\Active_environment.production.o
+__ptext21 167E 0 CODE 0 text21 dist/default/production\Active_environment.production.o
+__ptext22 1E0A 0 CODE 0 text22 dist/default/production\Active_environment.production.o
+__ptext23 1D4A 0 CODE 0 text23 dist/default/production\Active_environment.production.o
+__ptext24 10D8 0 CODE 0 text24 dist/default/production\Active_environment.production.o
+__ptext25 C40 0 CODE 0 text25 dist/default/production\Active_environment.production.o
+__ptext26 1900 0 CODE 0 text26 dist/default/production\Active_environment.production.o
+__ptext27 2116 0 CODE 0 text27 dist/default/production\Active_environment.production.o
+__ptext28 1F8E 0 CODE 0 text28 dist/default/production\Active_environment.production.o
+__ptext29 1836 0 CODE 0 text29 dist/default/production\Active_environment.production.o
+__ptext30 222C 0 CODE 0 text30 dist/default/production\Active_environment.production.o
+__ptext31 2096 0 CODE 0 text31 dist/default/production\Active_environment.production.o
+__ptext32 1414 0 CODE 0 text32 dist/default/production\Active_environment.production.o
+__ptext33 128C 0 CODE 0 text33 dist/default/production\Active_environment.production.o
+__ptext34 20D6 0 CODE 0 text34 dist/default/production\Active_environment.production.o
+__ptext35 1DAC 0 CODE 0 text35 dist/default/production\Active_environment.production.o
+__ptext36 1E5C 0 CODE 0 text36 dist/default/production\Active_environment.production.o
+__ptext37 2224 0 CODE 0 text37 dist/default/production\Active_environment.production.o
+__ptext38 1EAC 0 CODE 0 text38 dist/default/production\Active_environment.production.o
+__ptext39 1BDA 0 CODE 0 text39 dist/default/production\Active_environment.production.o
+__size_of_init_leds 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+___aodiv 128C 0 CODE 0 text33 dist/default/production\Active_environment.production.o
+___aomod 1414 0 CODE 0 text32 dist/default/production\Active_environment.production.o
+___flmul 816 0 CODE 0 text6 dist/default/production\Active_environment.production.o
+___fltol 1578 0 CODE 0 text5 dist/default/production\Active_environment.production.o
+iniciar_emoticones@luz 17 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+___lwdiv 1CD6 0 CODE 0 text12 dist/default/production\Active_environment.production.o
+__end_of_obtener_distancia 1F46 0 CODE 0 text14 dist/default/production\Active_environment.production.o
+__size_of_LCD_String_xy 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+__Lbigbss 0 0 BIGRAM 1 bigbss dist/default/production\Active_environment.production.o
+__Lbigram 0 0 ABS 0 bigram dist/default/production\Active_environment.production.o
+?_sensor_temperatura 32 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+?_dtoa 1C 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__Lcomram 0 0 ABS 0 comram dist/default/production\Active_environment.production.o
+__Lconfig 0 0 CONFIG 4 config dist/default/production\Active_environment.production.o
+__size_of_LCD_Command 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+___wmul@multiplier 1 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+_LATCbits F8B 0 ABS 0 - dist/default/production\Active_environment.production.o
+LCD_String_xy@location 9 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__size_of_LCD_String 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+?_sensor_distancia 5 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__Lfarbss 0 0 FARRAM 0 farbss dist/default/production\Active_environment.production.o
+___lwdiv@divisor 9 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+_init_leds 221A 0 CODE 0 text16 dist/default/production\Active_environment.production.o
+_strlen 2116 0 CODE 0 text27 dist/default/production\Active_environment.production.o
+main@s_luz A2 0 BANK0 1 cstackBANK0 dist/default/production\Active_environment.production.o
+__Lfardata 0 0 FARRAM 0 fardata dist/default/production\Active_environment.production.o
+isa$std 1 0 ABS 0 - C:\Users\57322\AppData\Local\Temp\xcAsb0s.o
+__size_of_vfprintf 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+stackhi 7FF 0 ABS 0 - C:\Users\57322\AppData\Local\Temp\xcAsb0s.o
+stacklo 150 0 ABS 0 - C:\Users\57322\AppData\Local\Temp\xcAsb0s.o
+?_validar 4 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__Lintcode 0 0 CODE 0 intcode dist/default/production\Active_environment.production.o
+__Lintret 0 0 ABS 0 intret dist/default/production\Active_environment.production.o
+__Lirdata 0 0 CODE 0 irdata dist/default/production\Active_environment.production.o
+_ADCON0bits FC2 0 ABS 0 - dist/default/production\Active_environment.production.o
+_ADCON1bits FC1 0 ABS 0 - dist/default/production\Active_environment.production.o
+_ADCON2bits FC0 0 ABS 0 - dist/default/production\Active_environment.production.o
+__end_of_LCD_String_xy 2116 0 CODE 0 text34 dist/default/production\Active_environment.production.o
+?_vfpfcnvrt 40 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__Lspace_0 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+__Lspace_1 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+__Lspace_2 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+__Lspace_4 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/production\Active_environment.production.o
+___aodiv@divisor 9 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+___aodiv@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\Active_environment.production.o
+___fltol@exp1 31 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+end_of_initialization 200A 0 CODE 0 cinit dist/default/production\Active_environment.production.o
+iniciar_emoticones@F3571 BC 0 BANK0 1 dataBANK0 dist/default/production\Active_environment.production.o
+iniciar_emoticones@F3573 B4 0 BANK0 1 dataBANK0 dist/default/production\Active_environment.production.o
+iniciar_emoticones@F3575 AC 0 BANK0 1 dataBANK0 dist/default/production\Active_environment.production.o
+iniciar_emoticones@F3577 A4 0 BANK0 1 dataBANK0 dist/default/production\Active_environment.production.o
+__Lnvrram 0 0 COMRAM 1 nvrram dist/default/production\Active_environment.production.o
+__Hintentry 0 0 ABS 0 intentry dist/default/production\Active_environment.production.o
+fputc@c 1 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+fputs@c E 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+fputs@i F 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+fputs@s A 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+?___aodiv 1 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+?___aomod 1 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+___lwdiv@dividend 7 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+?___flmul F 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+?___fltol 28 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+?___lwdiv 7 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+vfprintf@fmt 52 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__size_of_adc_config 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+__Hreset_vec 0 0 CODE 0 reset_vec dist/default/production\Active_environment.production.o
+__HbssBANK0 0 0 ABS 0 bssBANK0 dist/default/production\Active_environment.production.o
+__HbssBANK1 0 0 ABS 0 bssBANK1 dist/default/production\Active_environment.production.o
+__Lramtop 800 0 RAM 0 ramtop dist/default/production\Active_environment.production.o
+__size_of_strlen 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+__size_of_sensor_luz 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+__Lrparam 0 0 COMRAM 1 rparam dist/default/production\Active_environment.production.o
+__pcinit 1FD2 0 CODE 0 cinit dist/default/production\Active_environment.production.o
+vfpfcnvrt@ap 44 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+vfpfcnvrt@fp 40 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+vfpfcnvrt@ll 48 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__ptext0 1ADA 0 CODE 0 text0 dist/default/production\Active_environment.production.o
+__ptext1 1762 0 CODE 0 text1 dist/default/production\Active_environment.production.o
+__ptext2 21D2 0 CODE 0 text2 dist/default/production\Active_environment.production.o
+__ptext3 1C5A 0 CODE 0 text3 dist/default/production\Active_environment.production.o
+__ptext4 F24 0 CODE 0 text4 dist/default/production\Active_environment.production.o
+__ptext5 1578 0 CODE 0 text5 dist/default/production\Active_environment.production.o
+__ptext6 816 0 CODE 0 text6 dist/default/production\Active_environment.production.o
+__ptext7 1B5A 0 CODE 0 text7 dist/default/production\Active_environment.production.o
+__ptext8 2180 0 CODE 0 text8 dist/default/production\Active_environment.production.o
+__ptext9 21FC 0 CODE 0 text9 dist/default/production\Active_environment.production.o
+_distancia D4 0 BANK0 1 dataBANK0 dist/default/production\Active_environment.production.o
+__Lstruct 0 0 COMRAM 1 struct dist/default/production\Active_environment.production.o
+vfprintf@ap 54 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+vfprintf@fp 50 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__size_of_imprimir 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+vfprintf@cfmt 56 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__Ltext10 0 0 ABS 0 text10 dist/default/production\Active_environment.production.o
+__Ltext11 0 0 ABS 0 text11 dist/default/production\Active_environment.production.o
+__Ltext12 0 0 ABS 0 text12 dist/default/production\Active_environment.production.o
+__Ltext13 0 0 ABS 0 text13 dist/default/production\Active_environment.production.o
+__Ltext14 0 0 ABS 0 text14 dist/default/production\Active_environment.production.o
+__Ltext15 0 0 ABS 0 text15 dist/default/production\Active_environment.production.o
+__Ltext16 0 0 ABS 0 text16 dist/default/production\Active_environment.production.o
+__Ltext17 0 0 ABS 0 text17 dist/default/production\Active_environment.production.o
+__Ltext18 0 0 ABS 0 text18 dist/default/production\Active_environment.production.o
+__Ltext19 0 0 ABS 0 text19 dist/default/production\Active_environment.production.o
+__Ltext20 0 0 ABS 0 text20 dist/default/production\Active_environment.production.o
+__Ltext21 0 0 ABS 0 text21 dist/default/production\Active_environment.production.o
+__Ltext22 0 0 ABS 0 text22 dist/default/production\Active_environment.production.o
+__Ltext23 0 0 ABS 0 text23 dist/default/production\Active_environment.production.o
+__Ltext24 0 0 ABS 0 text24 dist/default/production\Active_environment.production.o
+__Ltext25 0 0 ABS 0 text25 dist/default/production\Active_environment.production.o
+__Ltext26 0 0 ABS 0 text26 dist/default/production\Active_environment.production.o
+__Ltext27 0 0 ABS 0 text27 dist/default/production\Active_environment.production.o
+__Ltext28 0 0 ABS 0 text28 dist/default/production\Active_environment.production.o
+__Ltext29 0 0 ABS 0 text29 dist/default/production\Active_environment.production.o
+__Ltext30 0 0 ABS 0 text30 dist/default/production\Active_environment.production.o
+__Ltext31 0 0 ABS 0 text31 dist/default/production\Active_environment.production.o
+__Ltext32 0 0 ABS 0 text32 dist/default/production\Active_environment.production.o
+__Ltext33 0 0 ABS 0 text33 dist/default/production\Active_environment.production.o
+__Ltext34 0 0 ABS 0 text34 dist/default/production\Active_environment.production.o
+__Ltext35 0 0 ABS 0 text35 dist/default/production\Active_environment.production.o
+__Ltext36 0 0 ABS 0 text36 dist/default/production\Active_environment.production.o
+__Ltext37 0 0 ABS 0 text37 dist/default/production\Active_environment.production.o
+__Ltext38 0 0 ABS 0 text38 dist/default/production\Active_environment.production.o
+__Ltext39 0 0 ABS 0 text39 dist/default/production\Active_environment.production.o
+__ramtop 800 0 RAM 0 ramtop C:\Users\57322\AppData\Local\Temp\xcAsb0s.o
+_sprintf 1E0A 0 CODE 0 text22 dist/default/production\Active_environment.production.o
+?_sensor_luz E 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+_vfprintf 1D4A 0 CODE 0 text23 dist/default/production\Active_environment.production.o
+__Lpowerup 0 0 CODE 0 powerup dist/default/production\Active_environment.production.o
+?___xxtofl 1 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+_init_ports 220C 0 CODE 0 text15 dist/default/production\Active_environment.production.o
+__Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\Active_environment.production.o
+sprintf@ap 60 0 BANK0 1 cstackBANK0 dist/default/production\Active_environment.production.o
+_obtener_distancia 1EFC 0 CODE 0 text14 dist/default/production\Active_environment.production.o
+LCD_Custom_Char@i 6 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+LCD_String@msg 3 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+___fltol@sign1 30 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__end_of_iniciar_emoticones 1ADA 0 CODE 0 text18 dist/default/production\Active_environment.production.o
+__psmallconst 800 0 SMALLCONST 0 smallconst dist/default/production\Active_environment.production.o
+__Lreset_vec 0 0 CODE 0 reset_vec dist/default/production\Active_environment.production.o
+__end_of_vfprintf 1DAC 0 CODE 0 text23 dist/default/production\Active_environment.production.o
+___fltol@f1 28 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+___param_bank 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+__Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production\Active_environment.production.o
+__end_of__initialization 200A 0 CODE 0 cinit dist/default/production\Active_environment.production.o
+__Libigdata 0 0 CODE 0 ibigdata dist/default/production\Active_environment.production.o
+main@s_dist 9E 0 BANK0 1 cstackBANK0 dist/default/production\Active_environment.production.o
+main@s_temp A0 0 BANK0 1 cstackBANK0 dist/default/production\Active_environment.production.o
+__end_of_sensor_temperatura 1CD6 0 CODE 0 text3 dist/default/production\Active_environment.production.o
+__pidataBANK0 2056 0 CODE 0 idataBANK0 dist/default/production\Active_environment.production.o
+__Lclrtext 0 0 ABS 0 clrtext dist/default/production\Active_environment.production.o
+_adc_read10Bits 2180 0 CODE 0 text8 dist/default/production\Active_environment.production.o
+LCD_Command@cmd 2 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+_val_intensidad EE 0 BANK0 1 bssBANK0 dist/default/production\Active_environment.production.o
+_iniciar_emoticones 1A58 0 CODE 0 text18 dist/default/production\Active_environment.production.o
+sprintf@f 62 0 BANK0 1 cstackBANK0 dist/default/production\Active_environment.production.o
+sprintf@s 58 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+_imprimir 167E 0 CODE 0 text21 dist/default/production\Active_environment.production.o
+adc_config@canal 1 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__end_of_dtoa F24 0 CODE 0 text25 dist/default/production\Active_environment.production.o
+__end_of_main 1B5A 0 CODE 0 text0 dist/default/production\Active_environment.production.o
+__end_of_LCD_Custom_Char 1F8E 0 CODE 0 text19 dist/default/production\Active_environment.production.o
+__end_of_fputc 1900 0 CODE 0 text29 dist/default/production\Active_environment.production.o
+__end_of_fputs 1FD2 0 CODE 0 text28 dist/default/production\Active_environment.production.o
+_LATB3 7C53 0 ABS 0 - dist/default/production\Active_environment.production.o
+_LATB4 7C54 0 ABS 0 - dist/default/production\Active_environment.production.o
+_LATB5 7C55 0 ABS 0 - dist/default/production\Active_environment.production.o
+_LATD0 7C60 0 ABS 0 - dist/default/production\Active_environment.production.o
+_LATD1 7C61 0 ABS 0 - dist/default/production\Active_environment.production.o
+?_sprintf 58 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+_RCREG FAE 0 ABS 0 - dist/default/production\Active_environment.production.o
+_RCSTA FAB 0 ABS 0 - dist/default/production\Active_environment.production.o
+_SPBRG FAF 0 ABS 0 - dist/default/production\Active_environment.production.o
+_TRISD F95 0 ABS 0 - dist/default/production\Active_environment.production.o
+_TXREG FAD 0 ABS 0 - dist/default/production\Active_environment.production.o
+_TXSTA FAC 0 ABS 0 - dist/default/production\Active_environment.production.o
+__end_of_putch 222E 0 CODE 0 text30 dist/default/production\Active_environment.production.o
+__HRAM 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+__Hbss 0 0 RAM 1 bss dist/default/production\Active_environment.production.o
+__Hram 0 0 ABS 0 ram dist/default/production\Active_environment.production.o
+__Hsfr 0 0 ABS 0 sfr dist/default/production\Active_environment.production.o
+__LRAM 1 0 ABS 0 - dist/default/production\Active_environment.production.o
+__Lbss 0 0 RAM 1 bss dist/default/production\Active_environment.production.o
+__Lram 0 0 ABS 0 ram dist/default/production\Active_environment.production.o
+__Lsfr 0 0 ABS 0 sfr dist/default/production\Active_environment.production.o
+_mostrar_emoticon 21D2 0 CODE 0 text2 dist/default/production\Active_environment.production.o
+_flags EA 0 BANK0 1 bssBANK0 dist/default/production\Active_environment.production.o
+_fputc 1836 0 CODE 0 text29 dist/default/production\Active_environment.production.o
+_fputs 1F8E 0 CODE 0 text28 dist/default/production\Active_environment.production.o
+_putch 222C 0 CODE 0 text30 dist/default/production\Active_environment.production.o
+_width E6 0 BANK0 1 bssBANK0 dist/default/production\Active_environment.production.o
+_temperatura DC 0 BANK0 1 dataBANK0 dist/default/production\Active_environment.production.o
+__end_of_imprimir 1762 0 CODE 0 text21 dist/default/production\Active_environment.production.o
+__end_of_init_ports 221A 0 CODE 0 text15 dist/default/production\Active_environment.production.o
+_sensor_temperatura 1C5A 0 CODE 0 text3 dist/default/production\Active_environment.production.o
+encender_leds@valor C 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__size_of_abs 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+__size_of_pad 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+__HdataBANK0 0 0 ABS 0 dataBANK0 dist/default/production\Active_environment.production.o
+__end_of_inicializar_lcd 2180 0 CODE 0 text20 dist/default/production\Active_environment.production.o
+validar@luz 8 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__initialization 1FD2 0 CODE 0 cinit dist/default/production\Active_environment.production.o
+___xxtofl@sign 9 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__pbssBANK0 E4 0 BANK0 1 bssBANK0 dist/default/production\Active_environment.production.o
+__pbssBANK1 100 0 BANK1 1 bssBANK1 dist/default/production\Active_environment.production.o
+_LCD_Command 1EAC 0 CODE 0 text38 dist/default/production\Active_environment.production.o
+imprimir@dist 68 0 BANK0 1 cstackBANK0 dist/default/production\Active_environment.production.o
+imprimir@temp 6A 0 BANK0 1 cstackBANK0 dist/default/production\Active_environment.production.o
+__Hfardata 0 0 FARRAM 0 fardata dist/default/production\Active_environment.production.o
+___wmul@product 5 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__Hsmallconst 816 0 SMALLCONST 0 smallconst dist/default/production\Active_environment.production.o
+dtoa@d 1E 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+dtoa@i 3E 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+dtoa@n 36 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+dtoa@p 30 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+dtoa@s 34 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+dtoa@w 32 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__end_of_iniciar_pic 21FC 0 CODE 0 text17 dist/default/production\Active_environment.production.o
+__Lifardata 0 0 CODE 0 ifardata dist/default/production\Active_environment.production.o
+__size_of_LCD_Char 0 0 ABS 0 - dist/default/production\Active_environment.production.o
+validar@distancia 6 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+__end_of_adc_read10Bits 21AC 0 CODE 0 text8 dist/default/production\Active_environment.production.o
+__Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\Active_environment.production.o
+__Hintcode 0 0 CODE 0 intcode dist/default/production\Active_environment.production.o
+LCD_Custom_Char@loc 5 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+LCD_Custom_Char@msg 3 0 COMRAM 1 cstackCOMRAM dist/default/production\Active_environment.production.o
+_val_distancia F4 0 BANK0 1 bssBANK0 dist/default/production\Active_environment.production.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+text6 0 816 816 1A18 1
+cstackCOMRAM 1 1 1 5F 1
+cstackBANK0 1 60 60 96 1
+reset_vec 0 0 0 4 1
+bssBANK1 1 100 100 50 1
+smallconst 0 800 800 16 1
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES
