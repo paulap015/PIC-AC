@@ -21,7 +21,9 @@
 #define ACTIVADO 0
 #define OCHO_mHz 0x72
 
-
+/**
+emoji temperatura
+**/
 
 unsigned char temperatura[8] = {
     0b00100,
@@ -78,17 +80,17 @@ void iniciar_pic();
 void main(void) {
 
     iniciar_pic();//Inicializa valores del PIC
-    inicializar_lcd();//Inicializa configuraci髇 del LCD
+    inicializar_lcd();//Inicializa configuraci贸n del LCD
     init_leds();//Inicializa los pines para el manejo d eleds
     iniciar_emoticones();//Carga los emoticones a usar
     
-    int s_dist = 0, s_temp = 0, s_luz = 0;//Variables para carga de informaci髇
+    int s_dist = 0, s_temp = 0, s_luz = 0;//Variables para carga de informaci贸n
     while (1) {
-        s_dist = sensor_distancia(); //Almacenando el valor de distancia retornado por la funci髇
-        s_temp = sensor_temperatura();//Almacenando el valor de temperatura retornado por la funci髇
-        s_luz = sensor_luz();//Almacenando el valor de luz retornado por la funci髇
+        s_dist = sensor_distancia(); //Almacenando el valor de distancia retornado por la funci贸n
+        s_temp = sensor_temperatura();//Almacenando el valor de temperatura retornado por la funci贸n
+        s_luz = sensor_luz();//Almacenando el valor de luz retornado por la funci贸n
         encender_leds(validar(s_temp, s_dist, s_luz));//Enciende o no los leds dependiendo del estado de cada sensor
-        imprimir(s_dist, s_temp, s_luz);//Imprime la informaci髇 capturada en cada instante
+        imprimir(s_dist, s_temp, s_luz);//Imprime la informaci贸n capturada en cada instante
     }
 
 }
